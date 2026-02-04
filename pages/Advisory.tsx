@@ -58,7 +58,7 @@ const Advisory: React.FC = () => {
               <p className="slide-left delay-1 text-gray-600 leading-relaxed mb-6">
                 Our advisory approach focuses on walking alongside leadership and administration – offering practical guidance, professional insight, and steady partnership as you move toward your community defined goals.
               </p>
-              <blockquote className="slide-left delay-2 mt-8 p-6 bg-brand-gray border-l-4 border-brand-gold">
+              <blockquote className="slide-left delay-2 mt-8 p-6 bg-brand-gray border-l-4 border-brand-gold rounded-r-xl">
                 <p className="text-gray-600 italic">
                   "Credit to Stacey Longclaws, CPA, CAFM, for your guidance, support and advice in shaping our approach to advisory services."
                 </p>
@@ -85,7 +85,7 @@ const Advisory: React.FC = () => {
                   </li>
                 ))}
               </ul>
-              <Link to="/contact-us" className="scale-in delay-4 inline-flex items-center gap-2 mt-8 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors btn-animate" aria-label="Get started with advisory services">
+              <Link to="/contact-us" className="scale-in delay-4 inline-flex items-center gap-2 mt-8 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors btn-animate rounded-lg" aria-label="Get started with advisory services">
                 Get Started <ArrowRight size={18} aria-hidden="true" />
               </Link>
             </aside>

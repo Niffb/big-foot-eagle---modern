@@ -64,7 +64,7 @@ const Governance: React.FC = () => {
                   Our role is to walk alongside leadership, providing tools, training, and support that build confidence and capacity while respecting the authority and role of Chief and Council and the governance direction provided by the membership.
                 </p>
               </div>
-              <blockquote className="slide-left delay-2 mt-8 p-6 bg-brand-gray border-l-4 border-brand-gold">
+              <blockquote className="slide-left delay-2 mt-8 p-6 bg-brand-gray border-l-4 border-brand-gold rounded-r-xl">
                 <p className="text-gray-600 italic">
                   "Thank you to Donny Smoke, Chief of Dakota Plains Wahpeton Nation and the community for sharing your vision of what could be with us."
                 </p>
@@ -88,7 +88,7 @@ const Governance: React.FC = () => {
                   </li>
                 ))}
               </ul>
-              <Link to="/contact-us" className="scale-in delay-4 inline-flex items-center gap-2 mt-8 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors btn-animate" aria-label="Get started with governance services">
+              <Link to="/contact-us" className="scale-in delay-4 inline-flex items-center gap-2 mt-8 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors btn-animate rounded-lg" aria-label="Get started with governance services">
                 Get Started <ArrowRight size={18} aria-hidden="true" />
               </Link>
             </aside>

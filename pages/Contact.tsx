@@ -43,9 +43,9 @@ const Contact: React.FC = () => {
             {/* Contact Info */}
             <div>
               {/* Company Info Box */}
-              <div className="slide-left bg-brand-gray p-8 mb-8">
+              <div className="slide-left bg-brand-gray p-8 mb-8 rounded-2xl">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-12 h-12 bg-brand-gold flex items-center justify-center" aria-hidden="true">
+                  <div className="w-12 h-12 bg-brand-gold flex items-center justify-center rounded-xl" aria-hidden="true">
                     <span className="text-white font-bold text-xl">B</span>
                   </div>
                   <div>
@@ -62,21 +62,21 @@ const Contact: React.FC = () => {
 
               <address className="not-italic space-y-6">
                 <div className="slide-left delay-2 flex gap-4">
-                  <div className="w-12 h-12 bg-brand-gray flex items-center justify-center shrink-0" aria-hidden="true">
+                  <div className="w-12 h-12 bg-brand-gray flex items-center justify-center shrink-0 rounded-xl" aria-hidden="true">
                     <MapPin className="text-brand-gold" size={24} />
                   </div>
                   <div>
                     <h3 className="font-semibold text-brand-black mb-1">Address</h3>
                     <p className="text-gray-600">
-                      101-1065 Portage Avenue<br/>
-                      Winnipeg, Manitoba R3G 0R8<br/>
+                      101-1065 Portage Avenue<br />
+                      Winnipeg, Manitoba R3G 0R8<br />
                       <span className="text-gray-400">Peguis First Nation</span>
                     </p>
                   </div>
                 </div>
 
                 <div className="slide-left delay-3 flex gap-4">
-                  <div className="w-12 h-12 bg-brand-gray flex items-center justify-center shrink-0" aria-hidden="true">
+                  <div className="w-12 h-12 bg-brand-gray flex items-center justify-center shrink-0 rounded-xl" aria-hidden="true">
                     <Phone className="text-brand-gold" size={24} />
                   </div>
                   <div>
@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                 </div>
 
                 <div className="slide-left delay-4 flex gap-4">
-                  <div className="w-12 h-12 bg-brand-gray flex items-center justify-center shrink-0" aria-hidden="true">
+                  <div className="w-12 h-12 bg-brand-gray flex items-center justify-center shrink-0 rounded-xl" aria-hidden="true">
                     <Mail className="text-brand-gold" size={24} />
                   </div>
                   <div>
@@ -112,7 +112,7 @@ const Contact: React.FC = () => {
                       type="text"
                       id="name"
                       name="name"
-                      className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300"
+                      className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300 rounded-lg"
                       placeholder="Your name"
                       required
                     />
@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
                       type="email"
                       id="email"
                       name="email"
-                      className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300"
+                      className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300 rounded-lg"
                       placeholder="your@email.com"
                       required
                     />
@@ -136,7 +136,7 @@ const Contact: React.FC = () => {
                       type="tel"
                       id="phone"
                       name="phone"
-                      className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300"
+                      className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300 rounded-lg"
                       placeholder="(000) 000-0000"
                     />
                   </div>
@@ -146,7 +146,7 @@ const Contact: React.FC = () => {
                       type="text"
                       id="subject"
                       name="subject"
-                      className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300"
+                      className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300 rounded-lg"
                       placeholder="How can we help?"
                       required
                     />
@@ -158,14 +158,14 @@ const Contact: React.FC = () => {
                     id="message"
                     name="message"
                     rows={5}
-                    className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300 resize-none"
+                    className="w-full px-4 py-3 border border-gray-300 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all duration-300 resize-none rounded-lg"
                     placeholder="Tell us about your project..."
                     required
                   ></textarea>
                 </div>
                 <button
                   type="submit"
-                  className="w-full sm:w-auto px-8 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors btn-animate"
+                  className="w-full sm:w-auto px-8 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors btn-animate rounded-lg"
                 >
                   Send Message
                 </button>
