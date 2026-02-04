@@ -49,7 +49,7 @@ const Contact: React.FC = () => {
                     <span className="text-white font-bold text-xl">B</span>
                   </div>
                   <div>
-                    <h2 className="font-bold text-brand-black text-lg">Big Foot Eagle Consulting</h2>
+                    <h2 className="font-bold text-brand-black text-lg">Big Foot and Eagle Consulting</h2>
                     <p className="text-gray-500 text-sm">Governance | Management | Advisory</p>
                   </div>
                 </div>
