@@ -25,9 +25,9 @@ const Navbar: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-6" aria-label="Main navigation">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3" aria-label="Big Foot and Eagle Consulting - Home">
-            <img src={`${import.meta.env.BASE_URL}logo-icon.png`} alt="Big Foot and Eagle Logo" className="h-14 w-auto" />
-            <span className="text-2xl font-bold text-brand-black">Big Foot and Eagle</span>
+          <Link to="/" className="flex items-center gap-3" aria-label="Bigfoot and the Eagle Consulting - Home">
+            <img src={`${import.meta.env.BASE_URL}logo-icon.png`} alt="Bigfoot and the Eagle Logo" className="h-14 w-auto" />
+            <span className="text-2xl font-bold text-brand-black">Bigfoot and the Eagle</span>
           </Link>
 
           {/* Desktop Nav */}

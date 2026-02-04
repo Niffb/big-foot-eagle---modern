@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand */}
           <div>
-            <h2 className="text-xl font-bold mb-4">Big Foot and Eagle</h2>
+            <h2 className="text-xl font-bold mb-4">Bigfoot and the Eagle</h2>
             <p className="text-gray-400 text-sm leading-relaxed">
               Walking alongside Nations to build governance strength and sustainable futures.
             </p>
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-sm text-gray-500 flex flex-col md:flex-row justify-between gap-4">
-          <p>&copy; {new Date().getFullYear()} Big Foot and Eagle Consulting. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Bigfoot and the Eagle Consulting. All rights reserved.</p>
           <nav aria-label="Legal">
             <ul className="flex gap-6">
               <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>

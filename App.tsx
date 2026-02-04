@@ -16,36 +16,36 @@ import Contact from './pages/Contact';
 // SEO page titles and meta descriptions
 const pageMeta: Record<string, { title: string; description: string }> = {
   '/': {
-    title: 'Big Foot and Eagle Consulting | Indigenous Governance & Management Services',
+    title: 'Bigfoot and the Eagle Consulting | Indigenous Governance & Management Services',
     description: 'Expert consulting services for First Nation governments and Indigenous organizations. Specializing in governance, management, and advisory services to build capacity and strengthen sovereign nations.'
   },
   '/governance': {
-    title: 'Governance Services | Big Foot and Eagle Consulting',
+    title: 'Governance Services | Bigfoot and the Eagle Consulting',
     description: 'Comprehensive governance training, policy development, and organizational reviews for First Nation governments. Build strong foundations for self-determination.'
   },
   '/management': {
-    title: 'Management Services | Big Foot and Eagle Consulting',
+    title: 'Management Services | Bigfoot and the Eagle Consulting',
     description: 'Expert accounting and management services for Indigenous organizations. Month-end checklists, funding agreements, capacity development, and more.'
   },
   '/advisory': {
-    title: 'Advisory Services | Big Foot and Eagle Consulting',
+    title: 'Advisory Services | Bigfoot and the Eagle Consulting',
     description: 'Strategic advisory services including fractional CFO, budget development, audit preparation, and strategic planning for First Nation communities.'
   },
   '/reconciliation-statement': {
-    title: 'Reconciliation Statement | Big Foot and Eagle Consulting',
+    title: 'Reconciliation Statement | Bigfoot and the Eagle Consulting',
     description: 'Our commitment to Truth and Reconciliation. Learn about our approach to mandatory reconciliation education and bridging Indigenous and western governance.'
   },
   '/treaty-relationships': {
-    title: 'Treaty Relationships | Big Foot and Eagle Consulting',
+    title: 'Treaty Relationships | Bigfoot and the Eagle Consulting',
     description: 'Understanding Canada\'s 96 Treaties and their importance. Education on historic and modern treaties and Nation to Nation agreements.'
   },
   '/our-staff': {
-    title: 'About Us | Big Foot and Eagle Consulting',
+    title: 'About Us | Bigfoot and the Eagle Consulting',
     description: 'Meet the team dedicated to serving First Nation governments and Indigenous organizations with expertise in governance and financial management.'
   },
   '/contact-us': {
-    title: 'Contact Us | Big Foot and Eagle Consulting',
-    description: 'Get in touch with Big Foot and Eagle Consulting. Located in Winnipeg, Manitoba. Let\'s discuss how we can support your governance and management goals.'
+    title: 'Contact Us | Bigfoot and the Eagle Consulting',
+    description: 'Get in touch with Bigfoot and the Eagle Consulting. Located in Winnipeg, Manitoba. Let\'s discuss how we can support your governance and management goals.'
   }
 };
 

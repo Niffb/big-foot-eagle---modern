@@ -46,7 +46,7 @@ const Home: React.FC = () => {
               We partner with Indigenous communities to strengthen governance, build capacity, and create sustainable futures rooted in traditional values and modern strategy.
             </p>
             <div className="animate-on-scroll delay-2 flex flex-wrap gap-4">
-              <Link to="/contact-us" className="btn-animate inline-flex items-center gap-2 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors rounded-lg" aria-label="Get in touch with Big Foot and Eagle Consulting">
+              <Link to="/contact-us" className="btn-animate inline-flex items-center gap-2 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors rounded-lg" aria-label="Get in touch with Bigfoot and the Eagle Consulting">
                 Get in Touch
                 <ArrowRight size={18} aria-hidden="true" />
               </Link>
