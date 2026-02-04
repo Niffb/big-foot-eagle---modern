@@ -29,7 +29,7 @@ const Advisory: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/eagle.png"
+            src={`${import.meta.env.BASE_URL}eagle.png`}
             alt=""
             className="w-full h-full object-cover"
             aria-hidden="true"

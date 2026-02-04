@@ -29,7 +29,7 @@ const Governance: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="/bigfoot.png"
+            src={`${import.meta.env.BASE_URL}bigfoot.png`}
             alt=""
             className="w-full h-full object-cover"
             style={{ objectPosition: 'center 30%' }}

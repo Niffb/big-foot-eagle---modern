@@ -72,7 +72,7 @@ const Home: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Link to="/governance" className="scale-in delay-1 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white" aria-label="Learn more about our Governance services">
               <div className="absolute inset-0 opacity-25 pointer-events-none">
-                <img src="/bigfoot.png" alt="" className="w-full h-full object-cover" aria-hidden="true" />
+                <img src={`${import.meta.env.BASE_URL}bigfoot.png`} alt="" className="w-full h-full object-cover" aria-hidden="true" />
               </div>
               <div className="relative z-10">
                 <Shield className="text-brand-gold mb-4" size={32} aria-hidden="true" />
@@ -99,7 +99,7 @@ const Home: React.FC = () => {
 
             <Link to="/advisory" className="scale-in delay-3 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white" aria-label="Learn more about our Advisory services">
               <div className="absolute inset-0 opacity-25 pointer-events-none">
-                <img src="/eagle.png" alt="" className="w-full h-full object-cover" aria-hidden="true" />
+                <img src={`${import.meta.env.BASE_URL}eagle.png`} alt="" className="w-full h-full object-cover" aria-hidden="true" />
               </div>
               <div className="relative z-10">
                 <FileText className="text-brand-gold mb-4" size={32} aria-hidden="true" />
