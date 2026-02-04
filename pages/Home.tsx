@@ -34,23 +34,23 @@ const Home: React.FC = () => {
             className="w-full h-full object-cover"
             aria-hidden="true"
           />
-          <div className="absolute inset-0 bg-white/90"></div>
+          <div className="absolute inset-0 bg-brand-black/80"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-6 py-20 lg:py-32">
           <div className="max-w-3xl">
-            <h1 id="hero-heading" className="animate-on-scroll text-4xl md:text-5xl lg:text-6xl font-bold text-brand-black leading-tight mb-6">
+            <h1 id="hero-heading" className="animate-on-scroll text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               Empowering Sovereign Nations
             </h1>
-            <p className="animate-on-scroll delay-1 text-xl text-gray-600 leading-relaxed mb-8">
+            <p className="animate-on-scroll delay-1 text-xl text-gray-300 leading-relaxed mb-8">
               We partner with Indigenous communities to strengthen governance, build capacity, and create sustainable futures rooted in traditional values and modern strategy.
             </p>
             <div className="animate-on-scroll delay-2 flex flex-wrap gap-4">
-              <Link to="/contact-us" className="btn-animate inline-flex items-center gap-2 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors" aria-label="Get in touch with Big Foot Eagle Consulting">
+              <Link to="/contact-us" className="btn-animate inline-flex items-center gap-2 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors rounded-lg" aria-label="Get in touch with Big Foot Eagle Consulting">
                 Get in Touch
                 <ArrowRight size={18} aria-hidden="true" />
               </Link>
-              <Link to="/governance" className="inline-flex items-center gap-2 px-6 py-3 border-2 border-brand-black text-brand-black font-medium hover:bg-brand-black hover:text-white transition-colors" aria-label="View our consulting services">
+              <Link to="/governance" className="inline-flex items-center gap-2 px-6 py-3 border-2 border-white text-white font-medium hover:bg-white hover:text-brand-black transition-colors rounded-lg" aria-label="View our consulting services">
                 Our Services
               </Link>
             </div>
@@ -70,7 +70,7 @@ const Home: React.FC = () => {
           </header>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Link to="/governance" className="scale-in delay-1 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white" aria-label="Learn more about our Governance services">
+            <Link to="/governance" className="scale-in delay-1 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white rounded-2xl" aria-label="Learn more about our Governance services">
               <div className="absolute inset-0 opacity-25 pointer-events-none">
                 <img src={`${import.meta.env.BASE_URL}bigfoot.png`} alt="" className="w-full h-full object-cover" aria-hidden="true" />
               </div>
@@ -86,7 +86,7 @@ const Home: React.FC = () => {
               </div>
             </Link>
 
-            <Link to="/management" className="scale-in delay-2 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white" aria-label="Learn more about our Management services">
+            <Link to="/management" className="scale-in delay-2 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white rounded-2xl" aria-label="Learn more about our Management services">
               <div className="absolute inset-0 opacity-25 pointer-events-none">
                 <img src={`${import.meta.env.BASE_URL}forest.png`} alt="" className="w-full h-full object-cover" aria-hidden="true" />
               </div>
@@ -102,7 +102,7 @@ const Home: React.FC = () => {
               </div>
             </Link>
 
-            <Link to="/advisory" className="scale-in delay-3 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white" aria-label="Learn more about our Advisory services">
+            <Link to="/advisory" className="scale-in delay-3 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white rounded-2xl" aria-label="Learn more about our Advisory services">
               <div className="absolute inset-0 opacity-25 pointer-events-none">
                 <img src={`${import.meta.env.BASE_URL}eagle.png`} alt="" className="w-full h-full object-cover" aria-hidden="true" />
               </div>
@@ -125,7 +125,7 @@ const Home: React.FC = () => {
       <section className="py-20 bg-brand-gray" aria-labelledby="about-heading">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="img-reveal overflow-hidden">
+            <div className="img-reveal overflow-hidden rounded-2xl">
               <img
                 src="https://images.unsplash.com/photo-1542601906990-b4d3fb7d5c73?auto=format&fit=crop&q=80&w=1200"
                 alt="Team members collaborating on Indigenous governance strategy"
@@ -175,7 +175,7 @@ const Home: React.FC = () => {
           <p className="animate-on-scroll delay-1 text-gray-400 mb-8 max-w-xl mx-auto">
             Let's discuss how we can support your governance and management goals.
           </p>
-          <Link to="/contact-us" className="animate-on-scroll delay-2 btn-animate inline-flex items-center gap-2 px-8 py-4 bg-brand-gold text-brand-black font-semibold hover:bg-yellow-600 transition-colors" aria-label="Start a conversation about your nation's needs">
+          <Link to="/contact-us" className="animate-on-scroll delay-2 btn-animate inline-flex items-center gap-2 px-8 py-4 bg-brand-gold text-brand-black font-semibold hover:bg-yellow-600 transition-colors rounded-lg" aria-label="Start a conversation about your nation's needs">
             Start a Conversation
             <ArrowRight size={18} aria-hidden="true" />
           </Link>

@@ -106,13 +106,13 @@ const Management: React.FC = () => {
           </div>
 
           {/* Attribution */}
-          <blockquote className="animate-on-scroll mt-16 p-6 bg-brand-gray border-l-4 border-brand-gold">
+          <blockquote className="animate-on-scroll mt-16 p-6 bg-brand-gray border-l-4 border-brand-gold rounded-r-xl">
             <p className="text-gray-600 italic">
               "Thank you to Lynette Roulette, Executive Director, Sandy Bay Ojibway First Nation for your input, direction and sharing your wisdom with us."
             </p>
           </blockquote>
 
-          <Link to="/contact-us" className="animate-on-scroll delay-1 inline-flex items-center gap-2 mt-8 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors btn-animate" aria-label="Get started with management services">
+          <Link to="/contact-us" className="animate-on-scroll delay-1 inline-flex items-center gap-2 mt-8 px-6 py-3 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors btn-animate rounded-lg" aria-label="Get started with management services">
             Get Started <ArrowRight size={18} aria-hidden="true" />
           </Link>
         </div>

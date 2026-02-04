@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Primary Meta Tags -->
-    <title>Big Foot Eagle Consulting | Indigenous Governance & Management Services</title>
-    <meta name="title" content="Big Foot Eagle Consulting | Indigenous Governance & Management Services" />
-    <meta name="description" content="Expert consulting services for First Nation governments and Indigenous organizations. Specializing in governance, management, and advisory services to build capacity and strengthen sovereign nations." />
-    <meta name="keywords" content="Indigenous consulting, First Nation governance, Indigenous management, treaty relationships, reconciliation, First Nation advisory, Indigenous capacity building, Aboriginal financial management" />
-    <meta name="author" content="Big Foot Eagle Consulting" />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://www.bigfooteagle.ca" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.bigfooteagle.ca" />
-    <meta property="og:title" content="Big Foot Eagle Consulting | Indigenous Governance & Management Services" />
-    <meta property="og:description" content="Expert consulting services for First Nation governments and Indigenous organizations. Specializing in governance, management, and advisory services." />
-    <meta property="og:image" content="https://www.bigfooteagle.ca/og-image.jpg" />
-    <meta property="og:locale" content="en_CA" />
-    <meta property="og:site_name" content="Big Foot Eagle Consulting" />
+  <!-- Primary Meta Tags -->
+  <title>Big Foot Eagle Consulting | Indigenous Governance & Management Services</title>
+  <meta name="title" content="Big Foot Eagle Consulting | Indigenous Governance & Management Services" />
+  <meta name="description"
+    content="Expert consulting services for First Nation governments and Indigenous organizations. Specializing in governance, management, and advisory services to build capacity and strengthen sovereign nations." />
+  <meta name="keywords"
+    content="Indigenous consulting, First Nation governance, Indigenous management, treaty relationships, reconciliation, First Nation advisory, Indigenous capacity building, Aboriginal financial management" />
+  <meta name="author" content="Big Foot Eagle Consulting" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.bigfooteagle.ca" />
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://www.bigfooteagle.ca" />
-    <meta name="twitter:title" content="Big Foot Eagle Consulting | Indigenous Governance & Management Services" />
-    <meta name="twitter:description" content="Expert consulting services for First Nation governments and Indigenous organizations. Specializing in governance, management, and advisory services." />
-    <meta name="twitter:image" content="https://www.bigfooteagle.ca/og-image.jpg" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.bigfooteagle.ca" />
+  <meta property="og:title" content="Big Foot Eagle Consulting | Indigenous Governance & Management Services" />
+  <meta property="og:description"
+    content="Expert consulting services for First Nation governments and Indigenous organizations. Specializing in governance, management, and advisory services." />
+  <meta property="og:image" content="https://www.bigfooteagle.ca/og-image.jpg" />
+  <meta property="og:locale" content="en_CA" />
+  <meta property="og:site_name" content="Big Foot Eagle Consulting" />
 
-    <!-- Additional SEO -->
-    <meta name="geo.region" content="CA-MB" />
-    <meta name="geo.placename" content="Winnipeg" />
-    <meta name="theme-color" content="#1a1a1a" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://www.bigfooteagle.ca" />
+  <meta name="twitter:title" content="Big Foot Eagle Consulting | Indigenous Governance & Management Services" />
+  <meta name="twitter:description"
+    content="Expert consulting services for First Nation governments and Indigenous organizations. Specializing in governance, management, and advisory services." />
+  <meta name="twitter:image" content="https://www.bigfooteagle.ca/og-image.jpg" />
 
-    <!-- Structured Data -->
-    <script type="application/ld+json">
+  <!-- Additional SEO -->
+  <meta name="geo.region" content="CA-MB" />
+  <meta name="geo.placename" content="Winnipeg" />
+  <meta name="theme-color" content="#0d0d0d" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
@@ -71,158 +76,197 @@
     }
     </script>
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              brand: {
-                black: '#1a1a1a',
-                gold: '#b8860b',
-                red: '#8b0000',
-                gray: '#f5f5f5',
-              }
-            },
-            fontFamily: {
-              sans: ['Inter', 'system-ui', 'sans-serif'],
-              serif: ['Georgia', 'Times New Roman', 'serif'],
-            },
-          }
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              // Core palette - Black/White/Red/Gold
+              black: '#0d0d0d',
+              white: '#ffffff',
+              cream: '#faf8f5',
+
+              // Rich gold tones
+              gold: '#c9a227',
+              'gold-light': '#dfc369',
+              'gold-dark': '#a68518',
+
+              // Deep red tones
+              red: '#9b1b1b',
+              'red-light': '#c42626',
+              'red-dark': '#6b1111',
+
+              // Neutral grays
+              gray: '#f7f5f2',
+              'gray-dark': '#e8e4df',
+              charcoal: '#2d2d2d',
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            serif: ['Georgia', 'Times New Roman', 'serif'],
+          },
         }
       }
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-      * {
-        -webkit-font-smoothing: antialiased;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-      body {
-        font-family: 'Inter', system-ui, sans-serif;
-      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      -webkit-font-smoothing: antialiased;
+    }
 
-      /* Fade up animation */
-      .animate-on-scroll {
-        opacity: 0;
-        transform: translateY(20px);
-        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-      }
-      .animate-on-scroll.visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    html {
+      scroll-behavior: smooth;
+    }
 
-      /* Stagger delays */
-      .delay-1 { transition-delay: 0.1s; }
-      .delay-2 { transition-delay: 0.2s; }
-      .delay-3 { transition-delay: 0.3s; }
-      .delay-4 { transition-delay: 0.4s; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+    }
 
-      /* Fade in */
-      .fade-in {
-        opacity: 0;
-        transition: opacity 0.6s ease-out;
-      }
-      .fade-in.visible {
-        opacity: 1;
-      }
+    /* Fade up animation */
+    .animate-on-scroll {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
 
-      /* Scale in */
-      .scale-in {
-        opacity: 0;
-        transform: scale(0.95);
-        transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-      }
-      .scale-in.visible {
-        opacity: 1;
-        transform: scale(1);
-      }
+    .animate-on-scroll.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
 
-      /* Slide from left */
-      .slide-left {
-        opacity: 0;
-        transform: translateX(-20px);
-        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-      }
-      .slide-left.visible {
-        opacity: 1;
-        transform: translateX(0);
-      }
+    /* Stagger delays */
+    .delay-1 {
+      transition-delay: 0.1s;
+    }
 
-      /* Slide from right */
-      .slide-right {
-        opacity: 0;
-        transform: translateX(20px);
-        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-      }
-      .slide-right.visible {
-        opacity: 1;
-        transform: translateX(0);
-      }
+    .delay-2 {
+      transition-delay: 0.2s;
+    }
 
-      /* Hover lift for cards */
-      .hover-lift {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-      .hover-lift:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-      }
+    .delay-3 {
+      transition-delay: 0.3s;
+    }
 
-      /* Line animation */
-      .line-animate {
-        width: 0;
-        transition: width 0.8s ease-out;
-      }
-      .line-animate.visible {
-        width: 60px;
-      }
+    .delay-4 {
+      transition-delay: 0.4s;
+    }
 
-      /* Counter animation */
-      .counter {
-        opacity: 0;
-        transform: translateY(10px);
-        transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-      }
-      .counter.visible {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    /* Fade in */
+    .fade-in {
+      opacity: 0;
+      transition: opacity 0.6s ease-out;
+    }
 
-      /* Button hover effect */
-      .btn-animate {
-        position: relative;
-        overflow: hidden;
-        transition: all 0.3s ease;
-      }
-      .btn-animate::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-        transition: left 0.5s ease;
-      }
-      .btn-animate:hover::after {
-        left: 100%;
-      }
+    .fade-in.visible {
+      opacity: 1;
+    }
 
-      /* Image reveal */
-      .img-reveal {
-        opacity: 0;
-        transform: scale(1.05);
-        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-      }
-      .img-reveal.visible {
-        opacity: 1;
-        transform: scale(1);
-      }
-    </style>
+    /* Scale in */
+    .scale-in {
+      opacity: 0;
+      transform: scale(0.95);
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    }
+
+    .scale-in.visible {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    /* Slide from left */
+    .slide-left {
+      opacity: 0;
+      transform: translateX(-20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .slide-left.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* Slide from right */
+    .slide-right {
+      opacity: 0;
+      transform: translateX(20px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .slide-right.visible {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    /* Hover lift for cards */
+    .hover-lift {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hover-lift:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Line animation */
+    .line-animate {
+      width: 0;
+      transition: width 0.8s ease-out;
+    }
+
+    .line-animate.visible {
+      width: 60px;
+    }
+
+    /* Counter animation */
+    .counter {
+      opacity: 0;
+      transform: translateY(10px);
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    }
+
+    .counter.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Button hover effect */
+    .btn-animate {
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .btn-animate::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+      transition: left 0.5s ease;
+    }
+
+    .btn-animate:hover::after {
+      left: 100%;
+    }
+
+    /* Image reveal */
+    .img-reveal {
+      opacity: 0;
+      transform: scale(1.05);
+      transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    }
+
+    .img-reveal.visible {
+      opacity: 1;
+      transform: scale(1);
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -234,13 +278,16 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body class="bg-white text-brand-black antialiased">
-    <div id="root"></div>
-    <noscript>
-      <p>Big Foot Eagle Consulting provides expert governance, management, and advisory services for First Nation governments and Indigenous organizations. Please enable JavaScript to view this website.</p>
-    </noscript>
+
+<body class="bg-white text-brand-black antialiased">
+  <div id="root"></div>
+  <noscript>
+    <p>Big Foot Eagle Consulting provides expert governance, management, and advisory services for First Nation
+      governments and Indigenous organizations. Please enable JavaScript to view this website.</p>
+  </noscript>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>

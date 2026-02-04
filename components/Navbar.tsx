@@ -20,14 +20,14 @@ const Navbar: React.FC = () => {
   }, [location]);
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white shadow-sm' : 'bg-white'
-    }`}>
+    <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-sm' : 'bg-white'
+      }`}>
       <nav className="max-w-7xl mx-auto px-6" aria-label="Main navigation">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2" aria-label="Big Foot Eagle Consulting - Home">
-            <span className="text-xl font-bold text-brand-black">Big Foot Eagle</span>
+          <Link to="/" className="flex items-center gap-3" aria-label="Big Foot Eagle Consulting - Home">
+            <img src={`${import.meta.env.BASE_URL}logo-icon.png`} alt="Big Foot Eagle Logo" className="h-14 w-auto" />
+            <span className="text-2xl font-bold text-brand-black">Big Foot and Eagle</span>
           </Link>
 
           {/* Desktop Nav */}
@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
               </button>
               {servicesOpen && (
                 <div className="absolute top-full left-0 pt-2" role="menu">
-                  <div className="bg-white shadow-lg border border-gray-100 py-2 min-w-[200px]">
+                  <div className="bg-white shadow-lg border border-gray-100 py-2 min-w-[200px] rounded-xl">
                     <Link to="/governance" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 hover:text-brand-black" role="menuitem">Governance</Link>
                     <Link to="/management" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 hover:text-brand-black" role="menuitem">Management</Link>
                     <Link to="/advisory" className="block px-4 py-2 text-gray-600 hover:bg-gray-50 hover:text-brand-black" role="menuitem">Advisory</Link>
@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
             <Link to="/reconciliation-statement" className="text-gray-600 hover:text-brand-black transition-colors">Reconciliation</Link>
             <Link to="/treaty-relationships" className="text-gray-600 hover:text-brand-black transition-colors">Treaty</Link>
             <Link to="/our-staff" className="text-gray-600 hover:text-brand-black transition-colors">About Us</Link>
-            <Link to="/contact-us" className="ml-4 px-5 py-2.5 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors">
+            <Link to="/contact-us" className="ml-4 px-5 py-2.5 bg-brand-red text-white font-medium hover:bg-red-800 transition-colors rounded-lg">
               Contact Us
             </Link>
           </div>
@@ -87,7 +87,7 @@ const Navbar: React.FC = () => {
               <Link to="/treaty-relationships" className="block py-2 text-gray-700">Treaty</Link>
               <Link to="/our-staff" className="block py-2 text-gray-700">About Us</Link>
             </div>
-            <Link to="/contact-us" className="block mt-4 px-5 py-3 bg-brand-red text-white text-center font-medium">
+            <Link to="/contact-us" className="block mt-4 px-5 py-3 bg-brand-red text-white text-center font-medium rounded-lg">
               Contact Us
             </Link>
           </div>
