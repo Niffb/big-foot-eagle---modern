@@ -86,15 +86,20 @@ const Home: React.FC = () => {
               </div>
             </Link>
 
-            <Link to="/management" className="scale-in delay-2 group p-8 border border-gray-200 hover:border-brand-gold hover-lift" aria-label="Learn more about our Management services">
-              <Users className="text-brand-gold mb-4" size={32} aria-hidden="true" />
-              <h3 className="text-xl font-semibold text-brand-black mb-3">Management</h3>
-              <p className="text-gray-600 mb-4">
-                Expert advisory for administration, finance, and human resource development to build internal capacity.
-              </p>
-              <span className="inline-flex items-center gap-1 text-brand-red font-medium group-hover:gap-2 transition-all">
-                Learn more <ArrowRight size={16} aria-hidden="true" />
-              </span>
+            <Link to="/management" className="scale-in delay-2 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white" aria-label="Learn more about our Management services">
+              <div className="absolute inset-0 opacity-25 pointer-events-none">
+                <img src={`${import.meta.env.BASE_URL}forest.png`} alt="" className="w-full h-full object-cover" aria-hidden="true" />
+              </div>
+              <div className="relative z-10">
+                <Users className="text-brand-gold mb-4" size={32} aria-hidden="true" />
+                <h3 className="text-xl font-semibold text-brand-black mb-3">Management</h3>
+                <p className="text-gray-600 mb-4">
+                  Expert advisory for administration, finance, and human resource development to build internal capacity.
+                </p>
+                <span className="inline-flex items-center gap-1 text-brand-red font-medium group-hover:gap-2 transition-all">
+                  Learn more <ArrowRight size={16} aria-hidden="true" />
+                </span>
+              </div>
             </Link>
 
             <Link to="/advisory" className="scale-in delay-3 group p-8 border border-gray-200 hover:border-brand-gold hover-lift relative overflow-hidden bg-white" aria-label="Learn more about our Advisory services">
