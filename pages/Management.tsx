@@ -29,7 +29,7 @@ const Management: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=2000"
+            src={`${import.meta.env.BASE_URL}forest.png`}
             alt=""
             className="w-full h-full object-cover"
             aria-hidden="true"
